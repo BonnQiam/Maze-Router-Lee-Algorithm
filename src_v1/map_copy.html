@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        td                  {border:solid #000000 1px;width:20px;height:20px;text-align:center;vertical-align:middle;}
+        .map_free           {background-color:#EEEEEE;}
+        .map_wave           {background-color:#9999F0;}
+        .map_obstruction    {background-color:#000000;}
+        .map_net            {background-color:#99F099;}
+        .map_Unknown        {background-color:#FF0000;}
+    </style>
+    
+    <table>
+        <tr>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+        </tr>
+
+        <tr>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+        </tr>
+
+        <tr>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_obstruction"></td>
+            <td class="map_obstruction"></td>
+            <td class="map_net">3</td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+        </tr>
+        
+        <tr>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_net">4</td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+        </tr>
+        
+        <tr>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_obstruction"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+        </tr>
+        
+        <tr>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_wave">2</td>
+            <td class="map_obstruction"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_net">3</td>
+            <td class="map_obstruction"></td>
+            <td class="map_obstruction"></td>
+            <td class="map_obstruction"></td>
+            <td class="map_net">1</td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+        </tr>
+        
+        <tr>
+            <td class="map_free"></td>
+            <td class="map_wave">2</td>
+            <td class="map_wave">1</td>
+            <td class="map_net">2</td>
+            <td class="map_obstruction"></td>
+            <td class="map_obstruction"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_net">1</td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+        </tr>
+        
+        <tr>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_wave">2</td>
+            <td class="map_wave">1</td>
+            <td class="map_wave">2</td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_net">1</td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+        </tr>
+        
+        <tr>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_wave">2</td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_obstruction"></td>
+            <td class="map_net">1</td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+        </tr>
+        
+        <tr>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_obstruction"></td>
+            <td class="map_net">1</td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+        </tr>
+        
+        <tr>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_net">4</td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_obstruction"></td>
+            <td class="map_net">2</td>
+            <td class="map_obstruction"></td>
+            <td class="map_net">1</td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+        </tr>
+        
+        <tr>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_obstruction"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_net">1</td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+        </tr>
+        
+        <tr>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_net">1</td>
+            <td class="map_net">1</td>
+            <td class="map_net">1</td>
+            <td class="map_net">1</td>
+            <td class="map_net">1</td>
+            <td class="map_net">1</td>
+            <td class="map_net">1</td>
+            <td class="map_net">1</td>
+            <td class="map_net">1</td>
+            <td class="map_net">1</td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+        </tr>
+        
+        <tr>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+        </tr>
+        
+        <tr>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+            <td class="map_free"></td>
+        </tr>
+    </table>
+    
+    <div>Net 2 waving...</div>
+
+</html>

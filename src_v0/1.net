@@ -1,0 +1,29 @@
+15
+
+obstruction 3 12
+obstruction 3 11
+obstruction 3 10
+obstruction 3 3
+obstruction 3 4
+obstruction 3 5
+obstruction 3 6
+obstruction 4 6
+obstruction 5 6
+obstruction 9 10
+obstruction 10 10
+obstruction 11 10
+obstruction 11 9
+obstruction 11 8
+obstruction 6 2
+obstruction 7 2
+obstruction 8 2
+obstruction 8 5
+obstruction 9 5
+obstruction 10 5
+obstruction 11 5
+obstruction 12 5
+
+net 3 12 12 5
+net 3 6 10 10
+net 8 5 8 2
+net 3 3 3 10
